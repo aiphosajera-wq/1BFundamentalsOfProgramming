@@ -1,7 +1,9 @@
+// Dito binibigyan natin ng pangalan yung class na gagawwin na program
 public class QuizGrader {
+     // Dito naman yung pinaka starting point ng program
     public static void main(String[] args) {
 
-        // Gumamit tayo ng char array dahil letters ang choices sa quiz
+        // Gumamit tayo ng char array dahil isang letters lang ginamit sa quiz
         char[] answerKey = {'A', 'C', 'B', 'D', 'A','C', 'C', 'B', 'A', 'D'};
 
         // Gumawa tayo ng another char array para ma-store yung answers ng student
